@@ -8,8 +8,9 @@ to the console
 */
 
 let isIsland = false;
-let language = 'English';
+let language;
 let country = 'India';
 let population = 1000;
 
 console.log(typeof isIsland, typeof population, typeof country, typeof language);
+
