@@ -10,4 +10,4 @@ country = "India";
 continent = "Asia";
 population = 10000;
 
-console.log(country, continient, population)
+console.log(country, continent, population);
