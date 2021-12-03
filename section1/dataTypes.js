@@ -32,7 +32,8 @@ const isIsland = false;
 const language = 'English';
 let country = 'India';
 let population = 1000;
-let description = `${}`
+console.log()
+
 
 console.log(typeof isIsland, typeof population, typeof country, typeof language);
 
