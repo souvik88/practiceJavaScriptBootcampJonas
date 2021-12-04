@@ -32,8 +32,6 @@ const isIsland = false;
 const language = 'English';
 let country = 'India';
 let population = 1000;
-console.log()
-
 
 console.log(typeof isIsland, typeof population, typeof country, typeof language);
 
@@ -41,4 +39,7 @@ console.log(isIsland);
 console.log(country);
 console.log(population);
 console.log(language);
+console.log(population > 33);
+
+
 
