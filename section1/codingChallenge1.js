@@ -7,8 +7,22 @@ Mark and John are trying to compare their BMI (Body Mass Index), which is calcul
 
 TEST DATA 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
 TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
-
-GOOD LUCK 😀
 */
 
-let 
+const massMark = 95;
+const heightMark = 1.88;
+const massJohn = 85;
+const heightJohn = 1.76;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+const markHigherBMI = BMIMark > BMIJohn;
+
+console.log(BMIMark, BMIJohn, markHigherBMI);
+
+if (BMIJohn > BMIMark) {
+    console.log( "John's BMI is larger than Mark" );
+} else {
+    console.log( "Mark's BMI is larger than John" );
+}
+
